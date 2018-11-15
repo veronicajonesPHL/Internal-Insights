@@ -10,7 +10,7 @@ Visuals: Demographically parameterized bar charts by source name
 
 Set Up:
   Software: Tableau/AWS Quicksight
-  Data Source: redshift - apollo - tableau - pwd -  iidbt
+  Data Source: redshift - apollo - tableau - pwd -  iidbt - query3
 
 Usage: Internal
 
