@@ -1,0 +1,9 @@
+Primary site
+concat({primarysite (pathologyreport)}," ",{primarysite (tumorassessment)}," ",{primarysite (tumorstaging)})
+
+Clinical Stage
+ifelse({clinicalstagegroup (pathologyreport)} = NULL,{clinicalstagegroup (tumorstaging)},{clinicalstagegroup (pathologyreport)})
+
+Histology
+ifelse({histology:xi (pathologyreport)} = NULL,{histology (tumorassessment)},{histology (tumorstaging)})
+
